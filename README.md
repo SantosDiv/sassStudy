@@ -1,4 +1,4 @@
-![Pure CSS Components Logo](logo-pcc.jpg "Pure CSS Components")
+![](logo-sass.png)
 
 # Sass - Let's Go! :running:
 
