@@ -1,4 +1,4 @@
-![](logo-sass.png)
+![](logo-sass.png "Logo Sass")
 
 # Sass - Let's Go! :running:
 
