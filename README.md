@@ -1,3 +1,5 @@
+![Pure CSS Components Logo](logo-pcc.jpg "Pure CSS Components")
+
 # Sass - Let's Go! :running:
 
 ## Preparando o ambiente
