@@ -1,14 +1,14 @@
-# Sass - Let's Go! 
+# Sass - Let's Go! :running:
 
 ## Preparando o ambiente
 > Ambiente Linux - Ubunto
-### Instalando o Ruby 
+### Instalando o Ruby :gem:
 ```sh
   `sudo apt-get install ruby`
 ```
 Para conferir se foi instalado com êxito, basta executar o comando: `ruby --version`. Se aparecer a versão, então deu certo :)
 
-### Instalando o Sass
+### Instalando o Sass :zap:
 ```sh
   ## Principal
   `sudo gem install sass`
