@@ -20,7 +20,7 @@ Para conferir se foi instalado com êxito, basta executar o comando: `ruby --ver
 ```
 > Note: Caso queria ver se o Sass foi instalado com êxito, basta usas `sass --version`. Caso apareça a versão, deu certo!
 
-### Utilizando o Sass
+## Utilizando o Sass
 - Compilando o arquivo Sass: `sass arquivo.scss:arquivo.css`. Será transformado no arquivo css;
 - Dando um 'Watch' (Assistindo as alterações automaticamente): `sass --watch arquivo.scss:arquivo.css`. Assim não precisa compilar toda alteração.
 
