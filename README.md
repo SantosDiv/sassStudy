@@ -1,27 +1,35 @@
-![Pure CSS Components Logo](logo-pcc.jpg "Pure CSS Components")
+![](logo-sass.png "Logo Sass")
 
 # Sass - Let's Go! :running:
 
 ## Preparando o ambiente
-> Ambiente Linux - Ubunto
-### Instalando o Ruby :gem:
-```sh
-  `sudo apt-get install ruby`
-```
-Para conferir se foi instalado com êxito, basta executar o comando: `ruby --version`. Se aparecer a versão, então deu certo :)
+> Ambiente Linux
+### Instalando o Dart-Sass :zap:
+>Note: Não foi utilizado o Ruby, por está descontinuado, segundo o Próprio site. Por isso utilizamos o Dart-Sass.
 
-### Instalando o Sass :zap:
-```sh
-  ## Principal
-  `sudo gem install sass`
+1) Acesse o [Repositório Dart-Sass](https://github.com/sass/dart-sass/releases/tag/1.28.0) no github;
+2) Baixe o arquivo que esteja de acordo com o seu computador (**Na aba Assets**);
+3) No terminal acesse o arquivo `.bashrc`, usando o seguinte comando:
+```sh 
+  `~/getit .bashrc`
+```
+4) Com o **.bashrc** aberto, na última linha digite o seguinte comando: `export PATH="your-dir:$PATH"`, onde o **your-dir** é o diretório da pasta que você salvou o arquivo dart-sass que você baixou.
+```sh 
+  #Exemplo
+  `export PATH="~/Documentos/dart-sass:$PATH"`
   
-  ## Gem's importantes
-  `sudo gem install compass`
-  `sudo gem install ruby-sass`
-  `sudo gem install listen`
+  **Depois Salve o arquivo e feche-o. Reinicie também o terminal**
 ```
-> Note: Caso queria ver se o Sass foi instalado com êxito, basta usas `sass --version`. Caso apareça a versão, deu certo!
+5) Por fim verifique se tudo foi instalado com exito. Execute o comando `sass --version` no terminal. Se aparecer a versão, deu tudo certo :)
 
+> Caso queira instalar no Windows ou no Mac, acesse o [Path de instalação](https://katiek2.github.io/path-doc/), com todas as intruções.
+
+### Instalando com o Node.js (via npm)
+É uma opção também instalar via npm, se você usa o node.js.
+```sh 
+  #Execute o comando
+  `npm install -g sass`
+```
 ## Utilizando o Sass
 - Compilando o arquivo Sass: `sass arquivo.scss:arquivo.css`. Será transformado no arquivo css;
 - Dando um 'Watch' (Assistindo as alterações automaticamente): `sass --watch arquivo.scss:arquivo.css`. Assim não precisa compilar toda alteração.
