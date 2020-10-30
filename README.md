@@ -4,9 +4,10 @@
 
 ## Preparando o ambiente
 > Ambiente Linux - Ubunto
-### Instalando o Ruby :gem:
+### Instalando o Dart-Sass :gem:
 ```sh
-  `sudo apt-get install ruby`
+  #Acesse o repositóio do github DartSass
+  [Repositório](https://github.com/sass/dart-sass/releases/tag/1.28.0)
 ```
 Para conferir se foi instalado com êxito, basta executar o comando: `ruby --version`. Se aparecer a versão, então deu certo :)
 
