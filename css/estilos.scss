@@ -25,7 +25,7 @@ $cor-branca: #fff;
 }
 
 //Mixin - width e heigth
-@mixin largura-altura($largura:210px,$altura:38px) {
+@mixin largura-altura-button($largura:210px,$altura:38px) {
   width: $largura;
   height: $altura;
 }
@@ -71,30 +71,31 @@ header .container {
   position: relative;
 }
 
-.menu-opcoes {
+.menu-principal {
   position: absolute;
   right: 0;
   top: -.5em;
   font-size: 1.2em;
   font-weight: lighter;
-}
 
-.menu-opcoes ul {
-  padding-left: 0;
-}
+  ul {
+    padding-left: 0;
+  }
 
-.menu-opcoes li {
-  display: inline-block;
-  width: 5em;
-}
+  li {
+    display: inline-block;
+    width: 5em;
+  }
 
-.menu-opcoes a {
-  color: $cor-branca;
-  text-decoration: none;
-}
+  a {
+    color: $cor-branca;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 
-.menu-opcoes a:hover {
-  text-decoration: underline;
+  
 }
 
 /** Destaque **/
@@ -226,29 +227,30 @@ header .container {
 
 .itens-plano {
   padding-left: 1.2em;
-}
 
-.itens-plano li {
-  font-size: 1em;
-  list-style: none;
-  border-bottom: 1px solid #acacac;
-  padding: .5em;
-  width: 14.8em;
-}
+  li {
+    font-size: 1em;
+    list-style: none;
+    border-bottom: 1px solid #acacac;
+    padding: .5em;
+    width: 14.8em;
 
-.itens-plano li:last-child {
-  border: 0;
-}
+    &:last-child {
+      border: 0;
+    }
+  }
 
-.itens-plano span {
-  float: right;
+  span {
+    float: right;
+  }
+
 }
 
 .plano button {
   background: $cor-padrao;
   border: 0;
   color: $cor-branca;
-  @include largura-altura;
+  @include largura-altura-button;
   font-size: 1.2em;
   @include borda-arredondada;
   @include sombra-padrao;
@@ -343,7 +345,7 @@ textarea {
   background: $cor-padrao;
   border: 0;
   color: $cor-branca;
-  @include largura-altura;
+  @include largura-altura-button;
   font-size: 1.2em;
   @include borda-arredondada;
   @include sombra-padrao;
