@@ -27,5 +27,5 @@ textarea {
   @include largura-altura-button;
   font-size: 1.2em;
   @include borda-arredondada;
-  @include sombra-padrao;
+  @extend %sombra-padrao;
 }

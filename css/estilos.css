@@ -1,3 +1,14 @@
+.contato button, .plano button, .destaque button {
+  -webkit-box-shadow: 0 2px 6.65px 0.35px;
+  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+}
+
+.social li a, .plataformas li {
+  text-indent: -9999px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+}
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -425,7 +436,7 @@ h2 {
 
 /** Header **/
 header {
-  border-top: 5px solid #75252d;
+  border-top: 5px solid #c23e4b;
   background: rgba(30, 44, 53, 0.8);
   height: 90px;
   width: 100%;
@@ -485,14 +496,12 @@ header .container {
 
 .destaque button {
   margin-top: 1em;
-  background: #75252d;
+  background: #c23e4b;
   border: 0;
   padding: 0.6em;
   font-size: 1.2em;
   -webkit-border-radius: 50px;
   border-radius: 50px;
-  -webkit-box-shadow: 0 2px 6.65px 0.35px;
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   font-weight: bold;
 }
 
@@ -528,9 +537,6 @@ header .container {
   display: inline-block;
   width: 50px;
   height: 60px;
-  text-indent: -9999px;
-  overflow: hidden;
-  background-repeat: no-repeat;
   background-position: center;
   margin: 1em 1.5em 0 0;
 }
@@ -575,7 +581,7 @@ header .container {
 .plano h3 {
   color: #fff;
   font-size: 1.8em;
-  background: #75252d;
+  background: #c23e4b;
   text-align: center;
   height: 2em;
   padding-top: 0.6em;
@@ -584,7 +590,7 @@ header .container {
 
 .plano div {
   text-align: center;
-  color: #75252d;
+  color: #c23e4b;
   font-size: 2.75em;
 }
 
@@ -606,7 +612,7 @@ header .container {
 }
 
 .plano button {
-  background: #75252d;
+  background: #c23e4b;
   border: 0;
   color: #fff;
   width: 210px;
@@ -614,8 +620,6 @@ header .container {
   font-size: 1.2em;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
-  -webkit-box-shadow: 0 2px 6.65px 0.35px;
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
   margin-left: 2em;
 }
 
@@ -703,7 +707,7 @@ textarea {
 
 .contato button {
   margin: 0 auto;
-  background: #75252d;
+  background: #c23e4b;
   border: 0;
   color: #fff;
   width: 210px;
@@ -711,8 +715,6 @@ textarea {
   font-size: 1.2em;
   -webkit-border-radius: 0.3em;
   border-radius: 0.3em;
-  -webkit-box-shadow: 0 2px 6.65px 0.35px;
-  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
 }
 
 /** Footer **/
@@ -792,9 +794,6 @@ footer a {
   display: block;
   width: 55px;
   height: 55px;
-  text-indent: -9999px;
-  overflow: hidden;
-  background-repeat: no-repeat;
   margin-left: 1em;
 }
 

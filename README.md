@@ -34,8 +34,11 @@
 - Compilando o arquivo Sass: `sass arquivo.scss:arquivo.css`. Será transformado no arquivo css;
 - Dando um 'Watch' (Assistindo as alterações automaticamente): `sass --watch arquivo.scss:arquivo.css`. Assim não precisa compilar toda alteração.
 
+
+> Note: Os comandos de utilização do Sass precisam ser dado dentro da pasta onde está o arquivo css.
+
 ### Mixin e Variáveis
-![Veja aqui](mixin-variaveis.md) o que é mixin e como declarar variáveis no SASS.
+![Veja aqui](mixin-variaveis.md) o que é mixin, placeholders e como declarar variáveis no SASS.
 
 ### Aninhamento
 ![Veja aqui](Aninhamento.md) a explicação e uso do Aninhamento (Nexting)

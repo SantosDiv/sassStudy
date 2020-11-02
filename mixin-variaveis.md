@@ -32,5 +32,28 @@ O mixin é uma forma de unir várias propriedades em um só elemento, para econo
   
 ```
 
+### Placeholder
+O placeholder é uma maneira mais performática de reutilizar códigos que são repetidos. Diferente do mixin, ele não repete o códico e sim une todas as classes que usam o mesmo código em um só lugar.
 
-> Note: Os comandos de utilização do Sass precisam ser dado dentro da pasta onde está o arquivo css.
+```sh 
+  # Sintaxe
+  %nome-do-placeholder {
+    propriedades:
+  }
+
+  # Exemplo
+  %sombra-padrao {
+    -webkit-box-shadow:0 2px 6.65px 0.35px;
+    box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+  }
+
+  #chamada para uso
+  @extend %sombra-padrao;
+
+  #resultado esperado
+  `contato button, .plano button, .destaque button` {
+  -webkit-box-shadow: 0 2px 6.65px 0.35px;
+  box-shadow: 0 2px 6.65px 0.35px rgba(0, 0, 0, 0.3);
+}
+```
+

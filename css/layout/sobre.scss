@@ -7,7 +7,7 @@
     -webkit-column-count: 2;
     -moz-column-count: 2;
     column-count: 2;
-    columns: 1;
+    columns: 1; 
   }
   
   .duas-colunas h3 {
@@ -30,7 +30,7 @@
     display: inline-block;
     width: 50px;
     height: 60px;
-    @include image-replacement;
+    @extend %image-replacement;
     background-position: center;
     margin: 1em 1.5em 0 0;
   }
