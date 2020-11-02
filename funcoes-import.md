@@ -23,7 +23,7 @@ Particionei o meu arquivo em diversos outros menores e assim posso ter uma facil
 > Note: Veja que não coloque a extensão *.scss*. Quando o arquivo é scss, não preciso colocar a extensão. Se for css, é necessário colocar.
 
 # Funções no SASS
-Ainda, para nos ajudar, o sass conta con diversas funções. Demontraremos duas delas aqui, que é a de deixar a cor mais escura e outra mais clara. 
+Ainda, para nos ajudar, o sass conta com diversas funções. Demontraremos duas delas aqui, que é a de deixar a cor mais escura e outra mais clara. 
 
 ```sh 
     $cor-padrao: darken(#c23e4b, 20%);
@@ -32,3 +32,13 @@ Ainda, para nos ajudar, o sass conta con diversas funções. Demontraremos duas 
 `darken(cor, porcentagemDoEfeito)` - Deixa a cor mais esrura. Você determina a cor e a porcentagem de quanto quer que esta cor fique escura.
 
 `lighten(cor, porcentagemDoEfeito)` - Deixa a cor mais clara. Você escolhe a cor e a porcentagem de quanto quer que ela tenha o efeito.
+
+## Criando uma função
+```sh 
+    `@function nomaDaFuncao($valor){`
+        `@return $valor*2;`
+    `}`
+
+    #Usando a função
+    `font-size: nomeDafuncao(2);`
+```
