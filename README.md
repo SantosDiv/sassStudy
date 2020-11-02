@@ -46,3 +46,6 @@
 
 ### Funções e Imports
 ![Veja aqui](funcoes-import.md) a explicação e alguns exemplos de uso de funções e imports no SASS.
+
+### Media Queries
+![Veja aqui](media-queries.md) a explicação e alguns exemplos de uso de funções e imports no SASS.
